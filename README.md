@@ -1,5 +1,7 @@
 # Guildedeno
 
+[![](https://www.codefactor.io/repository/github/scientific-guy/guildedeno/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/scientific-guy/guildedeno)
+
 Guildedeno is a deno wrapper for guilded api! You can view the docs [here](https://doc.deno.land/https/deno.land/x/guildedeno@v1.0.0-beta/mod.ts).
 
 > This package is not yet made completely! Make a pull request to make changes or create an issue for suggestions, bugs, etc!
