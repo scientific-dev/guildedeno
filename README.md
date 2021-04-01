@@ -1,6 +1,8 @@
 # Guildedeno
 
 [![](https://www.codefactor.io/repository/github/scientific-guy/guildedeno/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/scientific-guy/guildedeno)
+[![](http://doc.deno.land/https/deno.land/x/guildedeno/mod.ts)](https://img.shields.io/badge/READ-DOCS-orange?style=for-the-badge)
+[![](https://deno.land/x/guildedeno)](https://img.shields.io/github/v/tag/Scientific-Guy/guildedeno?style=for-the-badge&label=version
 
 Guildedeno is a deno wrapper for guilded api! You can view the docs [here](https://doc.deno.land/https/deno.land/x/guildedeno@v1.0.0-beta/mod.ts).
 
