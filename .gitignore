@@ -1,0 +1,4 @@
+# Test files
+test/
+src/index.ts
+src/ws/WSManager.ts

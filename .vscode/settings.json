@@ -1,0 +1,7 @@
+{
+    "deno.enable": true,
+    "editor.formatOnSave": true,
+    "deno.lint": true,
+    "deno.unstable": false,
+    "deno.path": "C:\\Users\\Admin\\.deno\\bin\\deno.exe"
+}
