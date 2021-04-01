@@ -23,7 +23,7 @@ const sleep = (ms: number): Promise<void> => new Promise(c => setTimeout(c, ms))
 
 /**
  * RestManager for the guilded client
- * 
+ *
  * @param client Your guilded client
  * @example
  * const rest = RestManager(client);
@@ -35,7 +35,7 @@ export default function RestManager(client: Client): RestType {
 
     /**
      * Fetch api easily!
-     * 
+     *
      * @param url Endpoint where you have to fetch
      * @param options Options Required for fetching
      */
@@ -57,7 +57,7 @@ export default function RestManager(client: Client): RestType {
             if(fetched.status == 429) {
                 client.emit('rateLimit', fetched);
                 await sleep(client.options.ratelimitOffset || 3500);
-                return await Rest(url, options);
+                return Rest(url, options);
             }
 
             throw new APIError(fetched, await fetched.text())
@@ -65,7 +65,7 @@ export default function RestManager(client: Client): RestType {
 
         return [await fetched.json(), fetched];
 
-    } 
+    }
 
     
     Rest.cookies = '';
