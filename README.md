@@ -7,7 +7,7 @@ Guildedeno is a deno wrapper for guilded api!
 ## Example
 
 ```ts
-import { Client } from "url";
+import { Client } from "https://raw.githubusercontent.com/Scientific-Guy/guildedeno/master/mod.ts";
 
 const client = new Client({
     eventHandlers: {
